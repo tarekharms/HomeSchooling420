@@ -4,37 +4,132 @@
  * and open the template in the editor.
  */
 
-import java.util.ArrayList;
-
+import java.io.*;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
 /**
  *
  * @author tarek.harms
  */
 public class XML implements IDatenhaltung
 {
-    private static final String PFAD = "./daten.xml";
+    private static final String PFAD = "C:\\Users\\tarek.harms\\eclipse-workspace\\HomeSchooling420\\bin\\daten.xml";
     
     @Override 
-    public void speichern(String links, String rechts)
-    {
+    public void speichern(String links, String rechts) throws IOException
+    {	
+    	String[][] daten = (String[][])dateiLesen();
+    	DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+    	try
+    	{
+        	DocumentBuilder db = dbf.newDocumentBuilder();
+        	
+        	Document doc = db.newDocument();
+        	
+        	Element table = doc.createElement("table");
+        	
+        	doc.appendChild(table);    	
+        	
+        	int leng = daten.length;
+        	
+        	for(int zeile = 0; zeile < leng; zeile++)
+        	{
+        		Element row = doc.createElement("row");
+        		Element textEins = doc.createElement("textEins");
+        		textEins.appendChild(doc.createTextNode(daten[zeile][0]));
+        		Element textZwei = doc.createElement("textZwei");
+        		textZwei.appendChild(doc.createTextNode(daten[zeile][1]));
+        		
+        		row.appendChild(textEins);
+        		row.appendChild(textZwei);
+        		table.appendChild(row);
+        	}
+        	
+    		Element row = doc.createElement("row");
+    		Element textEins = doc.createElement("textEins");
+    		textEins.appendChild(doc.createTextNode(links));
+    		Element textZwei = doc.createElement("textZwei");
+    		textZwei.appendChild(doc.createTextNode(rechts));
+    		
+    		row.appendChild(textEins);
+    		row.appendChild(textZwei);
+    		table.appendChild(row);
+
+            TransformerFactory tf = TransformerFactory.newInstance();
+            Transformer transformer = tf.newTransformer();
+
+            DOMSource source = new DOMSource(doc);          
+            StreamResult result = new StreamResult(new File(PFAD));  
+
+            transformer.transform(source, result);
+    	}
+    	catch (Exception ex)
+    	{
+    		System.out.println(ex);
+    	}
     }
 
     @Override
-    public Object[][] dateiLesen() 
+    public String[][] dateiLesen() throws IOException
     {
-        ArrayList<String[]> datenListe = new ArrayList<String[]>();
-        String[][] daten;
-        
-        daten = new String[datenListe.size()][2];
-        int zeile = 0;
-        
-        for(String[] row : datenListe)
-        {
-        	daten[zeile][0] = row[0];
-        	daten[zeile][1] = row[1];
-        	zeile++;
-        }
-        
-        return daten;
+    	File datei = new File(PFAD);
+    	DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+    	
+    	try 
+    	{
+        	DocumentBuilder db = dbf.newDocumentBuilder();
+        	
+        	Document doc = db.parse(datei);
+        	doc.getDocumentElement().normalize();
+        	
+        	NodeList liste = doc.getElementsByTagName("row");
+        	
+        	String[][] daten = new String[liste.getLength()][2];
+        	
+        	for (int zeile = 0; zeile < liste.getLength(); zeile++)
+        	{
+        		Element element = (Element)liste.item(zeile);
+        		
+        		daten[zeile][0] = element.getElementsByTagName("textEins").item(0).getTextContent();
+        		daten[zeile][1] = element.getElementsByTagName("textZwei").item(0).getTextContent();
+        	}
+        	
+        	return daten;
+    	}
+    	catch (Exception e)
+    	{
+    		System.out.println(e);
+    	}
+    	
+    	return new String[0][2];
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

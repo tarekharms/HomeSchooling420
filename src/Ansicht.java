@@ -19,6 +19,7 @@ public class Ansicht {
     private DefaultTableModel tablemodel;
     private JTextField field1;
     private JTextField field2;
+    private boolean csvSelected = true;
     
     public Ansicht(IDatenhaltung datenhaltung)
     {
@@ -69,9 +70,26 @@ public class Ansicht {
 
         JRadioButton csvButton = new JRadioButton("csv");
         csvButton.setActionCommand("csv");
-        csvButton.setSelected(true);
+        csvButton.addActionListener(new ActionListener() {
+        	@Override
+        	public void actionPerformed(ActionEvent e)
+        	{
+        		radioButtonClicked(e.getActionCommand());
+        	}
+        	
+        });
+        csvButton.setSelected(csvSelected);
+        
         JRadioButton xmlButton = new JRadioButton("xml");
-        csvButton.setActionCommand("xml");
+        xmlButton.setActionCommand("xml");
+        xmlButton.addActionListener(new ActionListener() {
+        	@Override
+        	public void actionPerformed(ActionEvent e)
+        	{
+        		radioButtonClicked(e.getActionCommand());
+        	}
+        });
+        xmlButton.setSelected(!csvSelected);
         
         group.add(csvButton);
         group.add(xmlButton);
@@ -90,6 +108,28 @@ public class Ansicht {
     		this.datenhaltung.speichern(this.field1.getText(), this.field2.getText());
     		this.tablemodel.addRow(new Object[] {this.field1.getText(), this.field2.getText()});
     		this.table.repaint();
+    	}
+    	catch (Exception ex)
+    	{
+    		System.out.println(ex);
+    	}
+    }
+    
+    private void radioButtonClicked(String action)
+    {
+    	try
+    	{
+    		if(action.equals("csv")) {
+    			this.setDatenhaltung(new CSV());
+    			this.csvSelected = true;
+    		}
+    		else {
+    			this.setDatenhaltung(new XML());
+    			this.csvSelected = false;
+    		}
+    		
+    		this.mainFrame.dispose();
+    		this.open();
     	}
     	catch (Exception ex)
     	{
