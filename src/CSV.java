@@ -11,7 +11,7 @@ import java.io.*;
  */
 public class CSV implements IDatenhaltung 
 {
-    private static final String PFAD = "C:\\Users\\tarek.harms\\eclipse-workspace\\HomeSchooling420\\bin\\daten.csv";
+	public static final String PFAD = System.getProperty("user.home") + "\\documents\\homeschooling420\\daten.csv";
     
     @Override
     public void speichern(String linkeSpalte, String rechteSpalte) throws IOException

@@ -20,7 +20,7 @@ import org.w3c.dom.NodeList;
  */
 public class XML implements IDatenhaltung
 {
-    private static final String PFAD = "C:\\Users\\tarek.harms\\eclipse-workspace\\HomeSchooling420\\bin\\daten.xml";
+    public static final String PFAD = System.getProperty("user.home") + "\\documents\\homeschooling420\\daten.xml";
     
     @Override 
     public void speichern(String links, String rechts) throws IOException
