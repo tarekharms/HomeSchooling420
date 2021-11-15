@@ -1,1 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T10:51:32.029Z" agent="5.0 (Windows)" version="15.7.3" etag="GgzAwO1mMlAoZFrNBDYt" type="github"><diagram id="jekcugpAi2NZI_fpUsYa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-15T11:36:04.357Z" agent="5.0 (Windows)" etag="qwgw23Bc-K3FKFvUhDpf" version="15.7.3" type="github" pages="5">
+  <diagram id="jekcugpAi2NZI_fpUsYa" name="Page-1">
+    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j0fG0UReEMcY4CGqrClC-8" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="v05vIFh8-eWAuUdi33De-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="358.75" y="337.5" width="37.5" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="j0fG0UReEMcY4CGqrClC-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="140" height="220" as="geometry" />
+        </mxCell>
+        <UserObject label="" link="data:page/id,zKE7f6E5DcRKMbApH_tS" id="j0fG0UReEMcY4CGqrClC-9">
+          <mxCell style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.video_conversation;aspect=fixed;" vertex="1" parent="1">
+            <mxGeometry x="365" y="350" width="25" height="12.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zKE7f6E5DcRKMbApH_tS" name="Page-2">
+    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="DeTN_ooXfa1ywjuxYfR3-0" />
+        <mxCell id="DeTN_ooXfa1ywjuxYfR3-1" parent="DeTN_ooXfa1ywjuxYfR3-0" />
+        <mxCell id="6pCf1geipjeYBmCYpGBW-0" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="DeTN_ooXfa1ywjuxYfR3-1">
+          <mxGeometry x="280" y="40" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ESCoqjhNevn72Ibug1wq-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DeTN_ooXfa1ywjuxYfR3-1">
+          <mxGeometry x="310" y="110" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="T6RyNhe1dj7DorMcFgyi-0" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="DeTN_ooXfa1ywjuxYfR3-1">
+          <mxGeometry x="358.75" y="337.5" width="37.5" height="37.5" as="geometry" />
+        </mxCell>
+        <UserObject label="" link="data:page/id,9kjDyeGdIIO6_j-lvuXg" id="T6RyNhe1dj7DorMcFgyi-2">
+          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="DeTN_ooXfa1ywjuxYfR3-1">
+            <mxGeometry x="370" y="348.75" width="15" height="15" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9kjDyeGdIIO6_j-lvuXg" name="Page-3">
+    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="MCkCks_cyXvT2EXOd_qb-0" />
+        <mxCell id="MCkCks_cyXvT2EXOd_qb-1" parent="MCkCks_cyXvT2EXOd_qb-0" />
+        <mxCell id="VYlL2kqO_2YCXlfyHWUX-0" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="MCkCks_cyXvT2EXOd_qb-1">
+          <mxGeometry x="280" y="40" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="VYlL2kqO_2YCXlfyHWUX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MCkCks_cyXvT2EXOd_qb-1">
+          <mxGeometry x="310" y="110" width="140" height="220" as="geometry" />
+        </mxCell>
+        <UserObject label="" link="data:page/id,mr74eFh5-rG0iFet1Cq7" id="VYlL2kqO_2YCXlfyHWUX-4">
+          <mxCell style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.up;" vertex="1" parent="MCkCks_cyXvT2EXOd_qb-1">
+            <mxGeometry x="429" y="344.5" width="21" height="25.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="VYlL2kqO_2YCXlfyHWUX-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.trashcan;" vertex="1" parent="MCkCks_cyXvT2EXOd_qb-1">
+          <mxGeometry x="310" y="340" width="24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VYlL2kqO_2YCXlfyHWUX-6" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.play;" vertex="1" parent="MCkCks_cyXvT2EXOd_qb-1">
+          <mxGeometry x="369.5" y="346" width="21" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mr74eFh5-rG0iFet1Cq7" name="Page-4">
+    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="s4Fzgd7zcjzGb5v8TD3_-0" />
+        <mxCell id="s4Fzgd7zcjzGb5v8TD3_-1" parent="s4Fzgd7zcjzGb5v8TD3_-0" />
+        <UserObject label="" link="data:page/id,GRJV6NnJUJC7T8hHWI8V" id="LRwZ9Y6nIxJbkUHQ7Osz-0">
+          <mxCell style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="s4Fzgd7zcjzGb5v8TD3_-1">
+            <mxGeometry x="280" y="40" width="200" height="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="LRwZ9Y6nIxJbkUHQ7Osz-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.up;aspect=fixed;" vertex="1" parent="s4Fzgd7zcjzGb5v8TD3_-1">
+          <mxGeometry x="351.17" y="190" width="57.65" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LRwZ9Y6nIxJbkUHQ7Osz-11" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.loading_circle;" vertex="1" parent="s4Fzgd7zcjzGb5v8TD3_-1">
+          <mxGeometry x="360" y="271" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GRJV6NnJUJC7T8hHWI8V" name="Page-5">
+    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="oSjPcKfBuk6-gvdj6NDV-0" />
+        <mxCell id="oSjPcKfBuk6-gvdj6NDV-1" parent="oSjPcKfBuk6-gvdj6NDV-0" />
+        <mxCell id="aH204W9pQ8qJ4IVDnk54-0" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="oSjPcKfBuk6-gvdj6NDV-1">
+          <mxGeometry x="280" y="40" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aH204W9pQ8qJ4IVDnk54-1" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.up;aspect=fixed;" vertex="1" parent="oSjPcKfBuk6-gvdj6NDV-1">
+          <mxGeometry x="365.5" y="170" width="29" height="35.24" as="geometry" />
+        </mxCell>
+        <mxCell id="aH204W9pQ8qJ4IVDnk54-4" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.check;strokeColor=#0080f0;aspect=fixed;" vertex="1" parent="oSjPcKfBuk6-gvdj6NDV-1">
+          <mxGeometry x="365" y="228" width="30" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
